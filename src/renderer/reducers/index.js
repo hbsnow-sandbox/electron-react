@@ -9,11 +9,6 @@ export default (state = initialState, action) => {
         title: action.title,
         text: action.text
       };
-    case 'SET_TITLE':
-      return {
-        title: action.title,
-        text: action.text
-      };
     default:
       return state;
   }
