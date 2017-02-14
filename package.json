@@ -1,0 +1,25 @@
+{
+  "name": "electron-react",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "src/browser/main.js",
+  "scripts": {
+    "start": "electron -r babel-register ."
+  },
+  "repository": "https://github.com/hbsnow-sandbox/electron-react",
+  "author": "hbsnow",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^1.4.1"
+  },
+  "dependencies": {
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "babel-register": "^6.22.0",
+    "cheerio-httpcli": "^0.6.11",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.2",
+    "redux": "^3.6.0"
+  }
+}
